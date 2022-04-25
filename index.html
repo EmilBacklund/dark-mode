@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- BEM = block(div, section, header etc), element(img etc __), modifier(colours etc --) class naming convention -->
+    <!-- for example if you have alot of cards, name all of them card, but if you have one dark and one light coloured of those card you can use a second class for each
+    like card--dark and card--light -->
+    <header class="header container">
+      <ul class="menu">
+        <li class="header__list"><a href="">Home</a></li>
+        <li class="header__list"><a href="">Posts</a></li>
+        <li class="header__list"><a href="">About</a></li>
+        <li class="header__list"><a href="">Contact</a></li>
+      </ul>
+      <div class="darkmode" id="icon"></div>
+    </header>
+    <main class="container">
+      <section class="promote-section">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aut,
+          hic dolorum similique exercitationem, totam voluptas facilis
+          reprehenderit quaerat dicta eaque quia mollitia nemo eius tempore
+          obcaecati perspiciatis optio! Iure, illo? Quisquam voluptatibus, fuga
+          at excepturi ipsum saepe ad laudantium.
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
